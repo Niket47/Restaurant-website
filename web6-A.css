@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: quicksand;
+	text-transform: capitalize;
+}
+.mb-5{
+	font-weight: 800;
+	text-transform: capitalize;
+}
+
+.main12{
+	font-weight: 800;
+}
+
+.cont1{
+    background-image: url(img/for-webpart-2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .a2link{
+    color: whitesmoke;
+    font-weight: 500;
+  }
+  .a1link{
+    color: whitesmoke;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .a1link:hover,.a2link:hover{
+    border-bottom: 1px solid whitesmoke;
+    color: goldenrod;
+  }
+
+
+
+
+/*--------*/
+
+
+.itemsallp{
+		font-weight: 400;
+
+	}
+	.itemsallh1{
+		font-weight: 500;
+		text-transform: capitalize;
+		margin-bottom: 20px;
+	}
+	.items-manu{
+		font-family: poppins;
+		background-color: #EDEDED;
+	}
+	.fa-star{
+		font-size: 20px;
+		color: goldenrod;
+	}
+
+
+	.itemsallh1{
+		position: relative;
+  		margin-top: 30px;
+  		margin-bottom: 30px;
+	}
+	.itemsallh1:before {
+		content: "";
+		position: absolute;
+		width: 21%;
+		height: 5px;
+		bottom: -16px;
+		right: 326px;
+		background-color: blueviolet;
+	}
+	
+	.section-title,.price{
+		color:  #FBC10A;
+	}
+	.price{
+		font-size: 25px;
+	}
+
+
+
+
+
+/*-----------*/
+
+
+.mainnav{
+	background-image: url(img/for-webpart-2.jpg);
+	height: 10vh;
+	background-position: center;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.container12,.mball{
+	font-weight: 800;
+	color: whitesmoke;
+	text-transform: uppercase;
+}
+.container12,.mball:hover {
+	color: goldenrod;
+}
+.container12,.mballa{
+	color: whitesmoke;
+	font-weight: 400;
+}
+.mballa{
+	margin-left: 10px;
+}
+.mballa:hover {
+	color: goldenrod;
+	cursor: pointer;
+	border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+.buyh1{
+	text-align: center;
+	font-weight: 800;
+	text-transform: capitalize;
+	margin-top: 80px;
+	margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+.itmnames{
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.fnames{
+	font-family: poppins;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+.stars{
+	text-align: center;
+	color: goldenrod;
+}
+.btn{
+	width: 130px;
+	text-transform: capitalize;
+	padding: 8px;
+}
+.box{
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.buylinka{
+	position: absolute;
+	top: 224px;
+  left: 86px;
+}
+
+.cat-h22{
+	font-weight: 800;
+	margin-left: 30%;
+	margin-top: 50px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+}
+/*----------footer css strt----------------*/
+
+.ff-secondary {
+    font-family: poppins;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 700 !important;
+}
+
+/*---*/
+
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background-color: goldenrod;
+}
+
+
+/*** Footer ***/
+.footer{
+	background-color: #050128;
+	margin-bottom: -200px;
+}
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: goldenrod;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+
+/*----------footer css end----------------*/
+
+
+
+
+@media only screen and (max-width: 1024px){
+	.buylinka{
+		top: 159px;
+    	left: 51px;
+	}  
+}
+@media only screen and (max-width: 768px){
+	.buylinka {
+    position: absolute;
+    top: 233px;
+    left: 103px;
+  }
+}
+@media only screen and (max-width: 576px){
+	.buylinka {
+    position: absolute;
+    top: 391px;
+    left: 195px;
+  }
+
+}
+@media only screen and (max-width: 425px){
+	.buylinka {
+    position: absolute;
+    top: 289px;
+    left: 129px;
+  }
+  .mball{
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
