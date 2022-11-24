@@ -3,7 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>contect us</title>
+	<title>contect us krishna restaurant</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,6 +27,7 @@
   <script>
      new WOW().init();
   </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -32,6 +38,18 @@
     background-image: url(img/for-webpart-2.jpg);
     background-position: center;
     background-size: cover;
+  }
+  .navbar-toggler-icon{
+      border-color: lightgreen !important;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+  .navbar, .navbar-brand:hover{
+    color: #FBCA2C !important;
+  }
+  .navbar, .nav-item, .nav-link:hover{
+    color: #FBCA2C !important;
   }
   body{
   font-family: quicksand;
@@ -52,10 +70,78 @@
   }
 
 /*--------footer-------------*/
-.fotimg{
-  background-image: url(img/for-webpart-2.jpg);
-  background-position: center;
-  background-size: cover;
+.footer{
+  background-color: #050128;
+  margin-bottom: -200px;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: goldenrod;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
 }
 /*---------------------*/
 
@@ -65,20 +151,27 @@
 </head>
 <body>
 <section class="cont1">
-<div class="container-xxl py-5">
-  <div class="row">
-    <div class="col">
-      <a href="index.html" class="a1link text-decoration-none">krishna restaurant</a>
-    </div>
-    <div class="col text-end">
-      <ul class="nav d-inline-flex ">
-        <li><a href="web6-A.html" class="a2link mx-3 text-decoration-none">manu</a></li>
-        <li><a href="" class="a2link mx-3 text-decoration-none">contect us</a></li>
-      </ul>
+<nav class="navbar ms-5 me-5 navbar-expand-md navbar-light bg-transparent ">
+    <div class="container-fluid ms-md-5">
+        <a class="navbar-brand text-white" href="index.html">
+            <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            krishna restaurant
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="collapse navbar-collapse nav justify-content-end me-md-5" class="" id="navbarTogglerDemo02">
+            <li class="nav-item">
+                <a class="nav-link  text-white active" aria-current="page" href="web6-A.html">menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="web6-contact.html">contact us</a>
+            </li>
+        </ul>
     </div>
     
-  </div>
-</div>
+</nav>
 </section>	
 
 <!-- contct us -->
@@ -136,20 +229,50 @@
 
 </section>
 
-<footer class="fotimg">
-  <div class="container-xxl mt-4 py-5">
-    <div class="row">
-      <div class="col">
-        <a href="index.html" class="a1link text-decoration-none">go to home-page</a>
-      </div>
-      <div class="col">
-        <div>
-          
+<!--  -->
+
+<div class="container-fluid text-light footer pt-5 mt-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="#">About Us</a>
+                        <a class="btn btn-link" href="#">Contact Us</a>
+                        <a class="btn btn-link" href="#">Reservation</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 kamrej, surat, INDIA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 99788 92929</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>krishnareastaurant@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>10AM - 03PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>10AM - 09PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start  fw-normal mb-4">Newsletter</h4>
+                        <p>register your e-mail for regularly update.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</footer>
+</div>
+<!--  -->
 
 
 </body>
