@@ -415,6 +415,9 @@ div .con-main{
 	.hero-h2{
 		font-size: 35px;
 		font-weight: 600;
+	}
+	.hero-bg{
+		height: 55vh;
 	}	
 }
 @media only screen and (max-width: 425px){
